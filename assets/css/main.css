@@ -171,7 +171,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #40A798;
+		color: #208089;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: bold;
 		line-height: 1.5;
@@ -1832,7 +1832,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: darkgray !important;
 		border-radius: 3em;
-		color: #40A798 !important;
+		color: #208089 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
