@@ -2171,7 +2171,11 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: darkgray;
+				opacity: 0.6;
+				background-image: -moz-linear-gradient(to right, white, #208089);
+				background-image: -webkit-linear-gradient(to right, white, #208089);
+				background-image: -ms-linear-gradient(to right, white, #208089);
+				background-image: linear-gradient(to right, white, #208089);
 			}
 
 			#sidebar nav a:after {

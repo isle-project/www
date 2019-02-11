@@ -5,7 +5,8 @@
 	height: 200px;
 	position: fixed;
 	z-index: 10001;
-	filter: saturate(0.5);
+	filter: saturate(0.7);
+	opacity: 0.9;
 }
 
 @media screen and (max-width: 1280px) {
@@ -16,7 +17,7 @@
 		height: 64px;
 		position: fixed;
 		z-index: 10001;
-		filter: saturate(0.5);
+		filter: saturate(0.4);
 	}
 }
 
