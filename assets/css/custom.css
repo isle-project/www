@@ -1,5 +1,5 @@
 .logo {
-	left: 0px;
+	left: -8px;
 	top: 0px;
 	width: 200px;
 	height: 200px;
@@ -31,6 +31,20 @@
 		background: #bb0000;
 		border-radius: 20px;
 		filter: saturate(1);
+	}
+}
+
+@media screen and (max-height: 600px) and (min-width: 1280px) {
+	.logo {
+		width: 140px;
+		height: 140px;
+	}
+}
+
+@media screen and (max-height: 500px) and (min-width: 1280px) {
+	.logo {
+		width: 64px;
+		height: 64px;
 	}
 }
 
