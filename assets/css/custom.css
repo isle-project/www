@@ -1,8 +1,8 @@
 .logo {
 	left: 0px;
-	top: 10px;
-	width: 160px;
-	height: 160px;
+	top: 0px;
+	width: 200px;
+	height: 200px;
 	position: fixed;
 	z-index: 10001;
 }
@@ -21,7 +21,13 @@
 @media screen and (max-width: 736px) {
 	.logo {
 		position: absolute;
+		left: 80%;
+		top: 5px;
+		width: 80px;
+		height: 80px;
 		mix-blend-mode: multiply;
+		background: #bb0000;
+		border-radius: 20px;
 	}
 }
 
