@@ -12,7 +12,7 @@ function playVideo() {
 	div.style.left = '0';
 	div.style.top = '0';
 	div.style.width = '100%';
-	div.style.height = window.innerHeight+'px';
+	div.style.height = '100%';
 	div.style.zIndex = '10001';
 	var iframe = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lKa7e4zxoqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 	var exit = '<div class="exit-button" onclick="removePlayer()">×</div>';
