@@ -4,6 +4,28 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+function playVideo() {
+	var div = document.createElement( 'div' );
+	document.body.style.overflow = 'hidden';
+	div.id = 'youtube_container';
+	div.style.position = 'fixed';
+	div.style.left = '0';
+	div.style.top = '0';
+	div.style.width = '100%';
+	div.style.height = window.innerHeight+'px';
+	div.style.zIndex = '10001';
+	var iframe = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lKa7e4zxoqU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+	var exit = '<div class="exit-button" onclick="removePlayer()">×</div>';
+	div.innerHTML = iframe + ' ' + exit;
+	document.body.appendChild( div );
+}
+
+function removePlayer() {
+	document.body.style.overflow = 'auto';
+	var container = document.getElementById( 'youtube_container' );
+	container.remove();
+}
+
 (function($) {
 
 	var	$window = $(window),

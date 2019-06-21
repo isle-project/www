@@ -9,6 +9,27 @@
 	opacity: 0.9;
 }
 
+.exit-button {
+	position: fixed;
+	right: 160px;
+	top: 5px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	opacity: 0.3;
+	background: white;
+	color: block;
+	transition: all 1s;
+	z-index: 10002;
+	font-size: 60px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.exit-button:hover {
+	opacity: 0.8;
+}
+
 @media screen and (max-width: 1280px) {
 	.logo {
 		left: 0px;
