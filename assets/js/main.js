@@ -14,7 +14,7 @@ function playVideo() {
 	div.style.width = '100%';
 	div.style.height = '100%';
 	div.style.zIndex = '10001';
-	var iframe = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lKa7e4zxoqU?rel=0&modestbranding=0&showinfo=0&controls=2" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture"></iframe>'
+	var iframe = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lKa7e4zxoqU?rel=0&modestbranding=0&showinfo=0&controls=2&autoplay=1" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture"></iframe>'
 	var exit = '<div class="exit-button" onclick="removePlayer()">×</div>';
 	div.innerHTML = iframe + ' ' + exit;
 	document.body.appendChild( div );
