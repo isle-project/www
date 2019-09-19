@@ -150,7 +150,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		border-bottom: dotted 1px rgba(40, 40, 40, 0.35);
-		color: inherit;
+		color: royalblue;
 		text-decoration: none;
 	}
 
