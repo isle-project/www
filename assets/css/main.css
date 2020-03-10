@@ -1773,7 +1773,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #bb0000;
+		background-color: #292d76;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
