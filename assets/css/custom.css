@@ -1,18 +1,9 @@
 .logo {
 	position: absolute;
-	left: 24px;
-	top: 24px;
-	width: 140px;
-	height: 140px;
-	z-index: 10001;
-}
-
-.wave-logo {
-	position: absolute;
 	top: 40px;
 	right: 40px;
-	width: 62.7px;
-	height: 62.7px;
+	width: 120px;
+	height: 120px;
 	z-index: 10001;
 }
 

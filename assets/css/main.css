@@ -1617,7 +1617,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 2em 8em 2em 10em;
+			padding: 2em 12em 2em 4em;
 			max-width: 100%;
 			width: 75em;
 		}
