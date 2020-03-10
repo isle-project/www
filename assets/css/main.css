@@ -167,7 +167,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -515,7 +515,7 @@ input, select, textarea {
 	}
 
 		.features section {
-			padding: 3.5em 3em 1em 7em ;
+			padding: 1.5em 3em 1em 7em ;
 			width: 50%;
 			border-top: solid 1px darkgray;
 			position: relative;
@@ -543,8 +543,8 @@ input, select, textarea {
 				-ms-transform: scale(1);
 				transform: scale(1);
 				position: absolute;
-				left: 2em;
-				top: 3em;
+				left: 1em;
+				top: 1em;
 				opacity: 1;
 			}
 
@@ -717,7 +717,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.features section {
-				padding: 2.5em 1.5em 0.1em 5.5em ;
+				padding: 1.5em 2em 1em 7em;
 			}
 
 				.features section .icon {
@@ -730,7 +730,7 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			.features section {
-				padding: 2em 1.5em 0.1em 1.5em ;
+				padding: 0.5em 1.5em 0.1em 1.5em ;
 			}
 
 				.features section .icon {
