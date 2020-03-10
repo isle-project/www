@@ -47,6 +47,10 @@
 		width: 80px;
 		height: 80px;
 	}
+	
+	.university-logo {
+		position: initial;
+	}
 }
 
 @media screen and (max-height: 600px) and (min-width: 1280px) {
