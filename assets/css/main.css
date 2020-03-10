@@ -114,7 +114,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #312450;
-		font-family: 'Open Sans', sans-serif;
+		font-family: 'Noto Sans', sans-serif;
 		font-size: 16.5pt;
 		font-weight: normal;
 		line-height: 1.75;
@@ -171,8 +171,8 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #208089;
-		font-family: 'Open Sans Condensed', sans-serif;
+		color: #292d76;
+		font-family: 'Libre Franklin', sans-serif;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -184,7 +184,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 2.5em;
 	}
 
 		h1.major {
@@ -1617,7 +1617,7 @@ input, select, textarea {
 	}
 
 		.wrapper > .inner {
-			padding: 5em 5em 3em 5em ;
+			padding: 2em 8em 2em 10em;
 			max-width: 100%;
 			width: 75em;
 		}
@@ -1785,7 +1785,7 @@ input, select, textarea {
 			display: block;
 			padding-left: 60px;
 			font-size: 1.25em;
-			font-family: Open Sans;
+			font-family: Libre Franklin;
 		}
 
 		#header .short-title { 
@@ -1934,7 +1934,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #bb0000;
+		background: #292d76;
 		cursor: default;
 		height: 100vh;
 		left: 0;
