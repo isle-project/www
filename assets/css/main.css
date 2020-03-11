@@ -134,6 +134,11 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+			#sidebar nav a {
+				font-size: 0.55em !important;
+				letter-spacing: 0.1em !important;
+			}
+
 		}
 
 		@media screen and (max-width: 360px) {
@@ -2148,8 +2153,8 @@ input, select, textarea {
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
-			font-size: 0.6em;
 			font-weight: bold;
+			font-size: 0.6em;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
 			outline: 0;
