@@ -9,12 +9,25 @@
 
 .university-logo {
 	position: absolute;
-	bottom: 1em;
+	bottom: 3em;
 	right: 0px;
 	width: 350px;
 	height: auto;
 	padding: 1em 2em 1em 2em;
 	background: rgba(215,234,251,0.8);
+	animation-duration: 2s;
+	animation-timing-function: ease-out;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+	from {
+		right: -300px;
+	}
+
+	to {
+		right: 0px;
+	}
 }
 
 .exit-button {
@@ -48,6 +61,7 @@
 	.university-logo {
 		width: 280px;
 		height: auto;
+		bottom: 1.5em;
 	}
 }
 

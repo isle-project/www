@@ -20,7 +20,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -28,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	overflow-x: hidden;
 }
 
 ol, ul {
@@ -234,6 +236,12 @@ input, select, textarea {
 
 	h6 {
 		font-size: 0.6em;
+	}
+
+	@media screen and (max-width: 1400px) {
+		h1 {
+			font-size: 2.2em;
+		}
 	}
 
 	@media screen and (max-width: 736px) {
