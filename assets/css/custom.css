@@ -1,7 +1,7 @@
 .logo {
 	position: absolute;
 	top: 30px;
-	right: 40px;
+	right: 20px;
 	width: 180px;
 	height: 180px;
 	z-index: 10001;
@@ -9,8 +9,10 @@
 
 .university-logo {
 	position: absolute;
-	bottom: 40px;
-	right: 40px;
+	bottom: 2em;
+	right: 20px;
+	width: 280px;
+	height: auto;
 }
 
 .exit-button {
@@ -35,12 +37,19 @@
 	opacity: 0.8;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1400px) {
 	.logo {
 		width: 140px;
 		height: 140px;
 	}
 
+	.university-logo {
+		width: 180px;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 972px) {
 	.university-logo {
 		position: initial;
 	}
