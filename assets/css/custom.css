@@ -9,10 +9,12 @@
 
 .university-logo {
 	position: absolute;
-	bottom: 2em;
-	right: 20px;
-	width: 280px;
+	bottom: 1em;
+	right: 0px;
+	width: 350px;
 	height: auto;
+	padding: 1em 2em 1em 2em;
+	background: rgba(215,234,251,0.8);
 }
 
 .exit-button {
@@ -44,14 +46,8 @@
 	}
 
 	.university-logo {
-		width: 180px;
+		width: 280px;
 		height: auto;
-	}
-}
-
-@media screen and (max-width: 972px) {
-	.university-logo {
-		position: initial;
 	}
 }
 
@@ -60,6 +56,14 @@
 		width: 80px;
 		height: 80px;
 	}
+
+	ul.actions {
+		display: inline-block;
+	}
+
+		ul.actions li {
+			padding: 0.5em;
+		}
 }
 
 @media screen and (max-height: 600px) and (min-width: 1280px) {
