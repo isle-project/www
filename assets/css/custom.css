@@ -10,7 +10,6 @@
 .university-logo {
 	position: absolute;
 	bottom: 3em;
-	right: -300px;
 	width: 350px;
 	height: auto;
 	padding: 1em 2em 1em 2em;
@@ -18,15 +17,18 @@
 	animation-duration: 2s;
 	animation-timing-function: ease-out;
 	animation-name: slidein;
+	opacity: 0;
 }
 
 @keyframes slidein {
 	from {
 		right: -300px;
+		opacity: 0.8;
 	}
 
 	to {
 		right: 0px;
+		opacity: 1;
 	}
 }
 
