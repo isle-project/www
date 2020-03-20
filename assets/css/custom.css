@@ -12,7 +12,7 @@
 	bottom: 3em;
 	width: 350px;
 	height: auto;
-	padding: 1em 2em 1em 2em;
+	padding: 1em 1em 1em 1.5em;
 	background: rgba(215,234,251,0.8);
 	animation-duration: 2s;
 	animation-timing-function: ease-out;
@@ -85,6 +85,12 @@
 		ul.actions li {
 			padding: 0.3em;
 		}
+}
+
+@media screen and (max-height: 700px) {
+	.university-logo {
+		bottom: 0;
+	}
 }
 
 @media screen and (max-height: 600px) and (min-width: 1280px) {
