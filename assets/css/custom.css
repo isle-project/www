@@ -105,6 +105,16 @@
 	height: 80px;
 }
 
+@media screen and (max-width: 420px) {
+	.subpage-logo {
+		position: absolute;
+		left: initial;
+		right: 15px;
+		width: 45px;
+		height: 45px;
+	}
+}
+
 .isle-video {
 	margin-left: 40px;
 	margin-top: 40px;
