@@ -136,6 +136,19 @@
 	}
 }
 
+.background-video-blocks {
+	background-image: url('videos/blocks.mp4'); 
+	position: absolute; 
+	top: 0px; 
+	left: 0px;
+}
+
+@media screen and (max-width: 1280px) {
+	.background-video-blocks {
+		top: 3.5em;
+	}
+}
+
 .isle-video {
 	margin-left: 40px;
 	margin-top: 40px;
