@@ -11,6 +11,7 @@
 	position: absolute;
 	bottom: 3em;
 	width: 350px;
+	display: block;
 	height: auto;
 	padding: 1em 1em 1em 1.5em;
 	background: rgba(215,234,251,0.8);
