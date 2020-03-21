@@ -15,14 +15,24 @@
 	height: auto;
 	padding: 1em 1em 1em 1.5em;
 	background: rgba(215,234,251,0.8);
-	animation-duration: 2s;
-	animation-timing-function: ease-out;
-	animation-name: slidein;
-	animation-fill-mode: forwards;
+	-webkit-animation: slidein 2s ease-out forwards;
+	animation: slidein 2s ease-out forwards;
 	opacity: 0;
 }
 
 @keyframes slidein {
+	from {
+		right: -300px;
+		opacity: 0.8;
+	}
+
+	to {
+		right: 0px;
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes slidein {
 	from {
 		right: -300px;
 		opacity: 0.8;
