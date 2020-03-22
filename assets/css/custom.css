@@ -197,6 +197,14 @@
 	opacity: 0.9;
 }
 
+.card .card-image .card-image-attribution {
+	position: absolute;
+	top: 0;
+	right: 5px;
+	color: white;
+	font-size: 12px;
+}
+
 .card .card-image .card-title {
 	color: #fff;
 	position: absolute;
