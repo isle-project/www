@@ -4,7 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-function playVideo() {
+function playVideo( src ) {
 	var div = document.createElement( 'div' );
 	document.body.style.overflow = 'hidden';
 	div.id = 'youtube_container';
@@ -14,7 +14,7 @@ function playVideo() {
 	div.style.width = '100%';
 	div.style.height = '100%';
 	div.style.zIndex = '10001';
-	var iframe = '<iframe width="100%" height="100%" src="https://www.youtube.com/embed/Lkj8b25ppZo?rel=0&modestbranding=1&showinfo=0&controls=2&autoplay=1" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture"></iframe>'
+	var iframe = '<iframe width="100%" height="100%" src="'+src+'" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture"></iframe>'
 	var exit = '<div class="exit-button" onclick="removePlayer()">×</div>';
 	div.innerHTML = iframe + ' ' + exit;
 	document.body.appendChild( div );
